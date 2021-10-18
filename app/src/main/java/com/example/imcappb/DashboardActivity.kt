@@ -3,11 +3,9 @@ package com.example.imcappb
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        supportActionBar!!.hide()
+        setContentView(R.layout.activity_dashboard)
     }
 }
